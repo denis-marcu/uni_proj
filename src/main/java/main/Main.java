@@ -5,7 +5,6 @@ import main.decorator.*;
 public class Main {
     public static void main(String[] args) {
         //Here I implemented the decorator.
-
         Coffee c1 = new CoffeeImpl();
         Coffee c2 = new Macchiato(new CoffeeImpl());
         Coffee c3 = new Espresso(new CoffeeImpl());
